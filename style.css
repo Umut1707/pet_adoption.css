@@ -1,0 +1,178 @@
+*
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+
+nav ul li {
+        display: inline-block;
+        padding: 10px 20px;
+}
+
+li {
+    min-height: 50px;
+    max-width: 100px; 
+    color: #000;
+    font-size: 18px;
+    padding: 50px;
+    gap: 20px;
+}
+
+
+.home {
+    color: #9a93ff;
+    font-size: 18px;
+}
+    
+
+.container_button {
+    border: none;
+    padding: 16px 20px;
+    border-radius: 999px;
+    color: #fff;
+    background: #ADA7FF; 
+    margin: 100px; 
+    font-family: Dosis;
+    font-size: 18px;
+    float: right;
+}
+
+img{
+    width: 56px;
+    height: 50px;
+} 
+
+.main-section {
+    padding: 1% 5px;
+    height: 20px;
+    position: relative;
+}
+
+.section-container {
+    padding: 20px;
+    padding-left: 150px;
+
+}
+h1 {
+    color: var(--Heading-Color, #302B3A);
+    font-family: Dosis;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.good{
+    color: var(--Buttton-Color, #ADA7FF);
+    font-family: Dosis;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    color: #404040;
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    width: 650px;
+}
+
+.group5 {
+    width: 345.022px;
+    height: 361.07px;
+    flex-shrink: 0;
+    display: flex;  
+}
+
+.group4 {
+    width: 345.022px;
+    height: 361.07px;
+    flex-shrink: 0;
+}
+
+button{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #ADA7FF;
+    color: var(--Pure-white, #FFF);
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.playbutton {
+    width: 55px;
+    height: 55px;
+}
+
+.playbutton {
+    color: var(--Buttton-Color, #ADA7FF);
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.seller {
+    color: var(--Heading-Color, #302B3A);
+    font-family: Dosis;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    color: var(--Paragraph, #686868);
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.two {
+    color: var(--Paragraph, #686868);
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.three{
+    color: var(--Paragraph, #686868);
+    font-family: Dosis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "pet_adoption.css-1",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../pet_adoption.css/images"
+		}
+	],
+	"settings": {}
+}
